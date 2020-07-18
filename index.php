@@ -1,3 +1,5 @@
 <?php
 
-print 'Primeira informação';
+print 'Primeira informação <br>';
+
+print 'Segunda informação <br>';
