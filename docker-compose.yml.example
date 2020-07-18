@@ -1,0 +1,11 @@
+version: "3"
+services:
+    web:
+        image: pipeline_nginx:1.0
+        build:
+            context: ./.docker/nginx
+
+    php:
+        image: pipeline_php:tag_version
+        build:
+            context: ./.docker/php
